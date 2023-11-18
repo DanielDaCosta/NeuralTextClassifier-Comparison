@@ -1,4 +1,19 @@
-# Python Commands
+# Unveiling the Power of Multi-Layer Feed-Forward Networks in Text Classification
+Paper: [Unveiling the Power of Multi-Layer Feed-Forward Networks in Text Classification.pdf](https://github.com/DanielDaCosta/NeuralTextClassifier-Comparison/blob/main/Unveiling%20the%20Power%20of%20Multi-Layer%20Feed-Forward%20Networks%20in%20Text%20Classification.pdf)
+
+# Abstract
+Text classification is one of the core tasks of Natural Language Processing (NLP). Despite being such a challenging task, reasonable results can be achieved using nonlinear classifiers. This paper discusses the implementation of a multi-layer feed-forward network from scratch, evaluating its efficacy across four different datasets, employing three distinct embed- dings. The model’s performance is compared across a variety of different configurations, as well as with out-of-the-shelf models.
+
+# Introduction
+
+The primary goal of this paper is to provide a comprehensive exploration of the methodologies and strategies involved in constructing a Feed-Forward Neural Network. Being able to capture complex underlying patterns, Neural Networks can have many free parameters, making their training a more complicated and time-consuming process compared to simpler models like Logistic Regression and Naive Bayes.
+
+In this paper, we go over the process of implementing a Feed-Foward Neural Network with one and multiple layers, exploring a range of feature and architecture configurations. We assess
+the impact of using TF-IDF for word selection as the input for a fixed-length feed-forward approach and the influence of momentum on model performance and training time. Additionally, we compare the outcomes of employing word embeddings concatenation versus averaging to represent sentences. All of these analyses are conducted for models with one and multiple hidden layers.
+
+The results demonstrate that simpler models are more suited for this problem and that increased complexity does not invariably lead to improved performance. Furthermore, our study underscores that computing the average of embeddings at the sentence level, rather than concatenating them, has proven to be a more effective approach.
+
+# Usage
 
 ## Train
 
